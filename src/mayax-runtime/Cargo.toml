@@ -1,0 +1,12 @@
+[package]
+name = "mayax-runtime"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+windows = { workspace = true }
+retour = { version = "0.4.0-alpha.2", features = ["static-detour"] }
+maya-sys = { path = "../maya-sys" }
