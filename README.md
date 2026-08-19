@@ -1,3 +1,5 @@
+
+
 # MayaX
 
 MayaX is a example runtime for Autodesk Maya.
@@ -25,7 +27,7 @@ cargo build --release
 
 ## Run
 
-You must set `MAYA_PATH` environment variable to the path of the Maya installation.
+You must set `MAYA_HOME` environment variable to the path of the Maya installation.
 
 ```bash
 cargo run
